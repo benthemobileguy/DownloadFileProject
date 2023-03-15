@@ -7,8 +7,35 @@
     <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
     <string name="notification_description">The Project 3 repository is downloaded</string>
     <string name="notification_button">See changes</string>
+    <string name="success">Successful</string>
 
+    <string name="ok">OK</string>
+    <string name="radio_app_text">ND940C3-Project - Current repository by Udacity</string>
+    <string name="status">Status</string>
+    <string name="load_notification_channel_id" translatable="false">loading_channel</string>
+    <string name="load_notification_channel_name" translatable="true">Loading</string>
+    <string name="cloud_download_image_info">Cloud download image</string>
+    <string name="file_name">File Name</string>
+    <string name="no_option_selected">Please select file to download.</string>
     <string name="button_name">Click me</string>
     <string name="button_loading">We are loading </string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="custom_button_text_default">Download</string>
+    <string name="custom_button_text_loading">Were are loading</string>
+    <string name="radio_glide_text">Glide - Image Loading Library by Bump Tech</string>
+    <string name="radio_retrofit_text">Retrofit - Type-Safe HTTP client for Android and Java by Square, Inc</string>
+
+
+    <string name="customButton_text_default">Download</string>
+    <string name="customButton_text_loading">Loading…</string>
+    <string name="customButton_text_completed">Download</string>
+
+
+    <string name="radio_glide_repo">https://github.com/bumptech/glide/archive/master.zip</string>
+    <string name="radio_app_repo">https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter/archive/master.zip</string>
+    <string name="radio_retrofit_repo">https://github.com/square/retrofit/archive/master.zip</string>
+    <string name="fail">Fail</string>
+    <string name="notification_description2">The Project 3 repository failed to download</string>
+    <string name="notification_action_details">Notification Details</string>
 </resources>
+
