@@ -1,4 +1,4 @@
-# The Shoe Store
+# Application Loading Status Bar
 
 In this project students will create an app to download a file from Internet by clicking on a custom-built button where:
 - width of the button gets animated from left to right;
