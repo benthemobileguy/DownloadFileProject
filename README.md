@@ -1,13 +1,13 @@
-# LoadApp
+# The Shoe Store
 
 In this project students will create an app to download a file from Internet by clicking on a custom-built button where:
- - width of the button gets animated from left to right;
- - text gets changed based on different states of the button;
- - circle gets be animated from 0 to 360 degrees
+- width of the button gets animated from left to right;
+- text gets changed based on different states of the button;
+- circle gets be animated from 0 to 360 degrees
 
-A notification will be sent once the download is complete. When a user clicks on notification, the user lands on detail activity and the notification gets dismissed. In detail activity, the status of the download will be displayed and animated via MotionLayout upon opening the activity.
-
-[The final look of the app](https://gph.is/g/Zywmnre)
+|Home|Customised Button|Download|
+|--|-------------|---|
+|![home](screenshots/screenshot_1.png)|![custom button](screenshots/screenshot_2.png)|![download](screenshots/screenshot_3.png)|
 
 
 ## Getting Started
@@ -61,7 +61,28 @@ This section should contain all the student deliverables for this project.
 * [Android Studio](https://developer.android.com/studio) - Default IDE used to build android apps
 * [Kotlin](https://kotlinlang.org/) - Default language used to build this project
 
-Include all items used to build project.
+---
+
+## Review from the Reviewer (Udacity)
+
+![review](screenshots/review.png)
+
+---
 
 ## License
-Please review the following [license agreement](https://bumptech.github.io/glide/dev/open-source-licenses.html)
+
+```
+Copyright 2023
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+   
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
