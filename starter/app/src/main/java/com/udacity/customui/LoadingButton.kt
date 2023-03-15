@@ -20,13 +20,21 @@ class LoadingButton @JvmOverloads constructor(
     private var heightSize = 0
 
 
-    private var paintButton = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = context.getColor(R.color.button_color)
-    }
+    private var paintButton = Paint(Paint.ANTI_ALIAS_FLAG)
+    private var paintLoadingButton = Paint(Paint.ANTI_ALIAS_FLAG)
 
+    init {
+        val typedArray = context.obtainStyledAttributes(attrs, R.styleable.LoadingButton)
 
-    private var paintLoadingButton = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = context.getColor(R.color.teal_700)
+        paintButton.apply {
+            color = typedArray.getColor(R.styleable.LoadingButton_buttonColor, context.getColor(R.color.button_color))
+        }
+
+        paintLoadingButton.apply {
+            color = typedArray.getColor(R.styleable.LoadingButton_loadingColor, context.getColor(R.color.teal_700))
+        }
+
+        typedArray.recycle()
     }
 
     private lateinit var buttonText: String
@@ -136,4 +144,5 @@ class LoadingButton @JvmOverloads constructor(
     }
 
 }
+
 
